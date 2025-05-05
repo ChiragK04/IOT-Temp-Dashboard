@@ -9,9 +9,7 @@ IoT Temperature Monitoring Dashboard is a real-time web application that tracks 
 ## Features
 
 - **Real-time updates**: Temperature data is displayed in real-time using WebSocket connections.
-- **Temperature trends**: View temperature data trends for the last 30 days.
-- **Device control**: Option to control devices (turn on/off, set temperature thresholds).
-- **Email alerts**: Send email notifications when the temperature exceeds a specified threshold.
+- **Temperature trends**: View temperature data trends.
 - **CSV logging**: All temperature data is logged to a CSV file for future analysis.
 
 ## Technologies Used
@@ -19,9 +17,7 @@ IoT Temperature Monitoring Dashboard is a real-time web application that tracks 
 - **Flask**: Python web framework for building the application.
 - **Flask-SocketIO**: For real-time communication and updates between the server and clients.
 - **Matplotlib**: For generating temperature trend charts.
-- **HTML/CSS**: For the frontend user interface.
 - **Python**: Backend logic, data handling, and device control.
-- **JavaScript**: Real-time WebSocket integration in the frontend.
 
 ## Setup Instructions
 
