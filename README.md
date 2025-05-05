@@ -4,14 +4,29 @@ IoT Temperature Monitoring Dashboard is a real-time web application that tracks 
 
 ---
 
-### Explanation:
-- **Description**: A brief summary of the project and what it does.
-- **Features**: Key functionality highlights like real-time updates, trend tracking, and device control.
-- **Technologies Used**: Lists the libraries and frameworks involved.
-- **Setup Instructions**: Step-by-step guide on how to set up the project on a local machine.
-- **File Structure**: Gives a quick overview of the directory structure.
-- **Contribution**: An invitation to contribute to the project.
-- **License**: Mentions the open-source license (you can change this to whichever license you prefer, e.g., MIT).
 
-You can update this further depending on any additional features or changes you make to the project.
 
+## Features
+
+- **Real-time updates**: Temperature data is displayed in real-time using WebSocket connections.
+- **Temperature trends**: View temperature data trends for the last 30 days.
+- **Device control**: Option to control devices (turn on/off, set temperature thresholds).
+- **Email alerts**: Send email notifications when the temperature exceeds a specified threshold.
+- **CSV logging**: All temperature data is logged to a CSV file for future analysis.
+
+## Technologies Used
+
+- **Flask**: Python web framework for building the application.
+- **Flask-SocketIO**: For real-time communication and updates between the server and clients.
+- **Matplotlib**: For generating temperature trend charts.
+- **HTML/CSS**: For the frontend user interface.
+- **Python**: Backend logic, data handling, and device control.
+- **JavaScript**: Real-time WebSocket integration in the frontend.
+
+## Setup Instructions
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/iot-temperature-dashboard.git
+   cd iot-temperature-dashboard
